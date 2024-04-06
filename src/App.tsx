@@ -59,6 +59,7 @@ function App() {
         width={ 20 }
         height={ 20 }
         bgcolor="text.tertiary"
+        color="common.white"
         position="fixed"
         bottom={ 20 }
         right={ 20 }

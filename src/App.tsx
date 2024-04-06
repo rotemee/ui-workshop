@@ -11,6 +11,8 @@ import Exercise_5 from './components/Exercise-5';
 import Exercise_6 from './components/Exercise-6';
 import Exercise_7 from './components/Exercise-7';
 import Exercise_8 from './components/Exercise-8';
+import Exercise_9 from './components/Exercise-9';
+import Exercise_10 from './components/Exercise-10';
 
 const component = {
   Exercise_1,
@@ -21,6 +23,8 @@ const component = {
   Exercise_6,
   Exercise_7,
   Exercise_8,
+  Exercise_9,
+  Exercise_10,
 };
 
 function App() {

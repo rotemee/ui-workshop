@@ -28,7 +28,7 @@
  *   - Button 1: Primary, outlined, small
  *   - Button 2: Secondary, outlined, small
  *  - on the right:
- *   - Clickable button with an icon: : <ChevronDownIcon />
+ *   - Clickable button with an icon: : <ChevronDownIcon /> - Hovering the button should show a tooltip with the text: "More options".
  * 
  */
 

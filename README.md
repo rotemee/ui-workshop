@@ -1,17 +1,17 @@
 # Elementor UI Workshop
 
-```js
+```bash
 git clone git@github.com:rotemee/ui-workshop.git
 ```
 
-```js
+```bash
 cd ui-workshop
 ```
 
-```js
-npm i
+```bash
+npm ci
 ```
 
-```js
+```bash
 npm run dev
 ```

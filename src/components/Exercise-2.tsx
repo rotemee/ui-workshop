@@ -19,6 +19,8 @@
  * 
  */
 
+import { AIIcon } from '@elementor/icons';
+
 export default function Exercise_2() {
     return (
         <>

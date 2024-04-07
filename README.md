@@ -1,17 +1,19 @@
 # Elementor UI Workshop
 
-```js
+```bash
 git clone git@github.com:rotemee/ui-workshop.git
 ```
 
-```js
+```bash
 cd ui-workshop
 ```
 
-```js
-npm i
+```bash
+npm ci
 ```
 
-```js
+```bash
 npm run dev
 ```
+## Welcome Page
+https://elementor-ui.netlify.app/?path=/docs/intro-welcome--page

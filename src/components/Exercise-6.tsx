@@ -29,6 +29,16 @@
  */
 
 import Dialog from '@elementor/ui/Dialog';
+import DialogTitle from '@elementor/ui/DialogTitle';
+import DialogHeader from '@elementor/ui/DialogHeader';
+import DialogHeaderGroup from '@elementor/ui/DialogHeaderGroup';
+import DialogContent from '@elementor/ui/DialogContent';
+import DialogActions from '@elementor/ui/DialogActions';
+import Button from '@elementor/ui/Button';
+import IconButton from '@elementor/ui/IconButton';
+import Chip from '@elementor/ui/Chip';
+import Stack from '@elementor/ui/Stack';
+import Typography from '@elementor/ui/Typography';
 import { SearchIcon, HelpIcon } from '@elementor/icons';
 
 export default function Exercise_6() {

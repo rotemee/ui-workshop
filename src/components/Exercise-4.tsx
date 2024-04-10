@@ -32,6 +32,12 @@
  */
 
 import Card from '@elementor/ui/Card';
+import CardHeader from '@elementor/ui/CardHeader';
+import CardContent from '@elementor/ui/CardContent';
+import CardActions from '@elementor/ui/CardActions';
+import Button from '@elementor/ui/Button';
+import Divider from '@elementor/ui/Divider';
+import IconButton from '@elementor/ui/IconButton';
 import { ChevronDownIcon, DotsVerticalIcon } from '@elementor/icons';
 
 export default function Exercise_4() {

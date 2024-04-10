@@ -10,6 +10,8 @@
  */
 
 import { useState } from 'react';
+import ToggleButton from '@elementor/ui/ToggleButton';
+import ToggleButtonGroup from "@elementor/ui/ToggleButtonGroup";
 
 export default function Exercise_8() {
 	const [ alignment, setAlignment ] = useState( '' );

@@ -32,8 +32,19 @@
  * 
  */
 
-import Card from '@elementor/ui/Card';
-import { ChevronDownIcon, DotsVerticalIcon } from '@elementor/icons';
+import Stack from "@elementor/ui/Stack";
+import Card from "@elementor/ui/Card";
+import CardHeader from "@elementor/ui/CardHeader";
+import CardContent from "@elementor/ui/CardContent";
+import CardActions from "@elementor/ui/CardActions";
+import Button from "@elementor/ui/Button";
+import Divider from "@elementor/ui/Divider";
+import IconButton from "@elementor/ui/IconButton";
+import Menu from "@elementor/ui/Menu";
+import MenuItem from "@elementor/ui/MenuItem";
+import Tooltip from "@elementor/ui/Tooltip";
+import { usePopupState, bindTrigger, bindMenu } from "@elementor/ui/usePopupState";
+import { ChevronDownIcon, DotsVerticalIcon } from "@elementor/icons";
 
 export default function Exercise_5() {
 	return (

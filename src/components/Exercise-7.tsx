@@ -17,6 +17,8 @@
  */
 
 import Alert from "@elementor/ui/Alert";
+import AlertTitle from "@elementor/ui/AlertTitle";
+import AlertAction from "@elementor/ui/AlertAction";
 
 export default function Exercise_7() {
 	return (

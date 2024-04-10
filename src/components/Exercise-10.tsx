@@ -19,6 +19,17 @@
  */
 
 import { useState } from 'react';
+import Box from "@elementor/ui/Box";
+import FormControl from "@elementor/ui/FormControl";
+import Select from "@elementor/ui/Select";
+import MenuItem from "@elementor/ui/MenuItem";
+import InputLabel from "@elementor/ui/InputLabel";
+import FormLabel from "@elementor/ui/FormLabel";
+import TextField from "@elementor/ui/TextField";
+import Button from "@elementor/ui/Button";
+import Stack from "@elementor/ui/Stack";
+import Typography from "@elementor/ui/Typography";
+import { styled } from "@elementor/ui/styles";
 
 export default function Exercise_8() {
 	const [ gender, setGender ] = useState('');

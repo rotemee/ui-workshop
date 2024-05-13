@@ -28,6 +28,8 @@
  * 
  */
 
+import { ExerciseImage } from "../shared/ExerciseImage";
+
 import Dialog from '@elementor/ui/Dialog';
 import DialogTitle from '@elementor/ui/DialogTitle';
 import DialogHeader from '@elementor/ui/DialogHeader';
@@ -43,8 +45,11 @@ import { SearchIcon, HelpIcon } from '@elementor/icons';
 
 export default function Exercise_6() {
     return (
-        <Dialog open={ false }>
-            Your solution here.
-        </Dialog>
+        <>
+            <ExerciseImage src="/exercises/Exercise_6.png" />
+            <Dialog open={ false }>
+                Your solution here.
+            </Dialog>
+        </>
     );
 }

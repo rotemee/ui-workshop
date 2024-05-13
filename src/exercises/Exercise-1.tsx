@@ -10,9 +10,12 @@
  * 
  */
 
+import { ExerciseImage } from "../shared/ExerciseImage";
+
 export default function Exercise_1() {
     return (
         <>
+            <ExerciseImage src="/exercises/Exercise_1.png" />
             Your solution here.
         </>
     );

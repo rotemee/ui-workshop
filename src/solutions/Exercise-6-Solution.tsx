@@ -1,5 +1,3 @@
-const show = false;
-
 /**
  * Exercise_6
  *
@@ -88,8 +86,16 @@ import Typography from '@elementor/ui/Typography';
 import { SearchIcon, HelpIcon } from '@elementor/icons';
 
 export default function Solution_6() {
+    const open = false;
+
+    if ( ! open ) {
+        return (
+            <p>In order to see the solution change the `open` variable to true.</p>
+        );
+    }
+
     return (
-        <Dialog open={ show } fullWidth maxWidth="sm">
+        <Dialog open={ false } fullWidth maxWidth="sm">
             <DialogHeader>
                 <DialogHeaderGroup>
                     <DialogTitle>Title</DialogTitle>

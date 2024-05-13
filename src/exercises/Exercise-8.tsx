@@ -9,6 +9,8 @@
  * 
  */
 
+import { ExerciseImage } from "../shared/ExerciseImage";
+
 import { useState } from 'react';
 import ToggleButton from '@elementor/ui/ToggleButton';
 import ToggleButtonGroup from "@elementor/ui/ToggleButtonGroup";
@@ -18,6 +20,7 @@ export default function Exercise_8() {
 
 	return (
 		<>
+			<ExerciseImage src="/exercises/Exercise_8.png" />
 			Your solution here.
 		</>
 	);

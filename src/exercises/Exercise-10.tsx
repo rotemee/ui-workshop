@@ -18,6 +18,8 @@
  * 
  */
 
+import { ExerciseImage } from "../shared/ExerciseImage";
+
 import { useState } from 'react';
 import Box from "@elementor/ui/Box";
 import FormControl from "@elementor/ui/FormControl";
@@ -36,6 +38,7 @@ export default function Exercise_8() {
 
 	return (
 		<>
+			<ExerciseImage src="/exercises/Exercise_10.png" />
             Your solution here.
         </>
 	);

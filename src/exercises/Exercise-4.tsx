@@ -31,6 +31,8 @@
  * 
  */
 
+import { ExerciseImage } from "../shared/ExerciseImage";
+
 import Card from '@elementor/ui/Card';
 import CardHeader from '@elementor/ui/CardHeader';
 import CardContent from '@elementor/ui/CardContent';
@@ -42,8 +44,11 @@ import { ChevronDownIcon, DotsVerticalIcon } from '@elementor/icons';
 
 export default function Exercise_4() {
     return (
-        <Card>
-            Your solution here.
-        </Card>
+        <>
+            <ExerciseImage src="/exercises/Exercise_4.png" />
+            <Card>
+                Your solution here.
+            </Card>
+        </>
     );
 }

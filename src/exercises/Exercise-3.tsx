@@ -13,23 +13,28 @@
  * 
  */
 
+import { ExerciseImage } from "../shared/ExerciseImage";
+
 import Paper from '@elementor/ui/Paper';
 import Stack from '@elementor/ui/Stack';
 
 export default function Exercise_3() {
     return (
-        <Stack direction="row" gap={ 3 }>
-            <Paper sx={ { p: 5 } }>
-                No shadow
-            </Paper>
+        <>
+            <ExerciseImage src="/exercises/Exercise_3.png" />
+            <Stack direction="row" gap={ 3 }>
+                <Paper>
+                    No shadow
+                </Paper>
 
-            <Paper sx={ { p: 5 } }>
-                Always in dark mode
-            </Paper>
+                <Paper>
+                    Always dark
+                </Paper>
 
-            <Paper sx={ { p: 5 } }>
-                No border-radius
-            </Paper>
-        </Stack>
+                <Paper>
+                    No border-radius
+                </Paper>
+            </Stack>
+        </>
     );
 }

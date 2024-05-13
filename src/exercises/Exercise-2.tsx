@@ -19,11 +19,14 @@
  * 
  */
 
+import { ExerciseImage } from "../shared/ExerciseImage";
+
 import { AIIcon } from '@elementor/icons';
 
 export default function Exercise_2() {
     return (
         <>
+            <ExerciseImage src="/exercises/Exercise_2.png" />
             Your solution here.
         </>
     );

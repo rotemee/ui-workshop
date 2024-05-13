@@ -15,6 +15,8 @@
  * 
  */
 
+import { ExerciseImage } from "../shared/ExerciseImage";
+
 import { useState } from 'react';
 import Accordion, { AccordionProps } from '@elementor/ui/Accordion';
 import AccordionSummary from '@elementor/ui/AccordionSummary';
@@ -24,6 +26,7 @@ import Typography from '@elementor/ui/Typography';
 export default function Exercise_9() {
 	return (
 		<>
+			<ExerciseImage src="/exercises/Exercise_9.png" />
             Your solution here.
         </>
 	);

@@ -16,14 +16,19 @@
  * - Action 2: outlined
  */
 
+import { ExerciseImage } from "../shared/ExerciseImage";
+
 import Alert from "@elementor/ui/Alert";
 import AlertTitle from "@elementor/ui/AlertTitle";
 import AlertAction from "@elementor/ui/AlertAction";
 
 export default function Exercise_7() {
 	return (
-		<Alert>
+		<>
+			<ExerciseImage src="/exercises/Exercise_7.png" />
+			<Alert>
 				Your solution here.
-		</Alert>
+			</Alert>
+		</>
 	);
 }

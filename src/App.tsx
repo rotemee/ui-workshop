@@ -7,7 +7,6 @@ import EuiTypography from '@elementor/ui/Typography';
 import EuiAppBar from '@elementor/ui/AppBar';
 import EuiToolbar from '@elementor/ui/Toolbar';
 import EuiButton from '@elementor/ui/Button';
-import EuiContainer from '@elementor/ui/Container';
 import EuiFab from '@elementor/ui/Fab';
 
 import Exercise_1 from './exercises/Exercise-1';
@@ -59,7 +58,9 @@ const solutions = {
 };
 
 function App() {
-  const [ components, setComponents ] = useState<typeof exercises | typeof solutions>( solutions );
+  const [ components, setComponents ] = useState<typeof exercises | typeof solutions>( exercises );
+  const isExercises = components === exercises;
+  const isSolutions = components === solutions;
 
   return (
     <>
@@ -68,13 +69,26 @@ function App() {
           <EuiTypography variant="h6">Elementor UI Challenges</EuiTypography>
 
           <EuiStack direction="row" gap={ 1 }>
-            <EuiButton size="small" variant="outlined" onClick={ () => setComponents( exercises ) }>Exercises</EuiButton>
-            <EuiButton size="small" variant="outlined" onClick={ () => setComponents( solutions ) }>Solutions</EuiButton>
+            <EuiButton
+              size="small"
+              variant={ isExercises ? 'contained' : 'outlined' } 
+              onClick={ () => setComponents( exercises ) }
+            >
+                Exercises
+            </EuiButton>
+
+            <EuiButton
+              size="small"
+              variant={ isSolutions ? 'contained': 'outlined' }
+              onClick={ () => setComponents( solutions ) }
+            >
+              Solutions
+            </EuiButton>
           </EuiStack>
         </EuiToolbar>
       </EuiAppBar>
 
-      <EuiContainer>
+      <EuiBox px={ 3 }>
         <EuiStack gap={ 1 } mt={ 2 }>
           {
             Object.entries( components ).map( ( ( [ name ] ) => (
@@ -100,7 +114,7 @@ function App() {
             ) ) )
           }
         </EuiStack>
-      </EuiContainer>
+      </EuiBox>
 
       <EuiFab
         size="small"
